@@ -14,6 +14,6 @@ plt.show()
 shortest_paths = dict(nx.all_pairs_dijkstra_path(G))
 # All Short Paths
 for start_node in shortest_paths:
-    print(f"The Most Short Path From {start_node}:")
+    print(f"The Shortest Path From {start_node}:")
     for end_node, path in shortest_paths[start_node].items():
         print(f"  From {end_node}: Path - {path}")
