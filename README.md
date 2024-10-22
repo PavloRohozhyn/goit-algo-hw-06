@@ -12,6 +12,17 @@
 
 Далі порівняйте результати виконання обох алгоритмів для цього графа, висвітлить різницю в отриманих шляхах. Поясніть, чому шляхи для алгоритмів саме такі.
 
+![task2_result](task2_result.png "task2_result")
+
+
 ### Завдання 3 ([task3.py](task3.py))
 
 Реалізуйте алгоритм Дейкстри для знаходження найкоротшого шляху в розробленому графі: додайте у граф ваги до ребер та знайдіть найкоротший шлях між всіма вершинами графа.
+
+![task3_result](task3_result.png "task3_result")
+
+![task31_result](task31_result.png "task31_result")
+
+![task32_result](task32_result.png "task32_result")
+
+![task33_result](task33_result.png "task33_result")
