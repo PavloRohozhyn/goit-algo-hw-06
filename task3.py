@@ -1,12 +1,13 @@
 import networkx as nx
 import matplotlib.pyplot as plt
-from graph import graph
+from graph import graph_plus
 
-G = graph()
+G = graph_plus()
 plt.figure(figsize=(8, 6))
 pos = nx.spring_layout(G)
 nx.draw(G, pos, with_labels=True, node_color='lightblue', node_size=3000, font_size=10, font_weight='bold', edge_color='gray')
 edge_labels = nx.get_edge_attributes(G, 'weight') # weight
+print(edge_labels)
 nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels)
 plt.title("Internet Nertwork")
 plt.show()
